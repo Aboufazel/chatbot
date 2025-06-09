@@ -49,7 +49,7 @@ function App() {
                             <label>{item.label}</label>
                             <input id={item.label}
                                    name={item.label}
-                                   defaultValue={userStorageData[item.label]}
+                                   defaultValue={userStorageData ? userStorageData[item.label] : ''}
                                    onChange={(e) =>
                                        setData(prev => ({
                                            ...prev,
