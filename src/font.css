@@ -1,0 +1,86 @@
+
+
+@font-face {
+    font-family: 'iransansxv';
+    src: url('assets/fonts/iranSans/variable/iransansxv.woff') format('woff-variations'),
+    url('assets/fonts/iranSans/variable/iransansxv.woff2') format('woff2-variations'),
+        /* will be the standard and works in Safari now */
+    url('assets/fonts/iranSans/variable/iransansxv.woff2') format('woff2'),
+    url('assets/fonts/iranSans/variable/iransansxv.woff') format('woff');
+    /* for the other supporting browsers */
+    font-weight: 100 1000;
+    font-display: fallback;
+
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 100;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Thin.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 200;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-UltraLight.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Light.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Medium.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-DemiBold.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 800;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-ExtraBold.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Black.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Bold.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/fonts/iranSans/woff/IRANSansXFaNum-Regular.woff') format('woff'),
+    url('assets/fonts/iranSans/woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
