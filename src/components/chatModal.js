@@ -75,7 +75,7 @@ const ChatModal = ({state , stateFn}) => {
         return(
             <div className={'flex flex-row justify-end w-full pl-32 items-center'}>
                 <div className={'text-labelDesk w-full'}>
-                    دستیار پشتیبان
+                    دستیار هوشمند
                 </div>
                 <RevButton onClick={()=>{
                     setShowStaticMsg(true)
