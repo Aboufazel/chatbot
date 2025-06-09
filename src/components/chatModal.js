@@ -73,7 +73,7 @@ const ChatModal = ({state , stateFn}) => {
 
     const TitleSection = ()=>{
         return(
-            <div className={'flex flex-row justify-end w-full pl-32 items-center'}>
+            <div className={'flex flex-row justify-end w-full xl:pl-0 pl-32 items-center'}>
                 <div className={'text-labelDesk w-full'}>
                     دستیار هوشمند
                 </div>

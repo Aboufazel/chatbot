@@ -38,10 +38,10 @@ function App() {
         setData('')
     }
     return (
-        <div className={'flex flex-col w-screen h-screen'}>
+        <div className={'flex flex-col items-start w-screen h-screen'}>
             <form onSubmit={(e) => {
                 handelSubmit(e)
-            }} className={'flex flex-col gap-16 p-16'}>
+            }} className={'flex flex-col w-full xl:w-1/3 gap-16 p-16'}>
                 {
                     inputsData.map((item , index) => (
                         <div key={'inputs-data' + item.label + index.toString()}
